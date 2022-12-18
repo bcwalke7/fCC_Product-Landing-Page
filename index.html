@@ -90,15 +90,25 @@
             <div id="contact">
                 <h2>Contact us for pricing</h2>
                 <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
-                    <label for="name">NAME</label>
-                    <input type="text" id="name" name="name" placeholder="Enter Name" required />
-                    <label for="email">E-MAIL</label>
-                    <input type="email" id="email" name="email" placeholder="Enter Email" required />
-                    <label for="questions">QUESTIONS?</label>
+                    <div class="formflex">
+                        <label for="name" class="label">NAME</label>
+                        <div class="sep"></div>
+                        <input type="text" id="name" name="name" placeholder="Enter Name" required />
+                    </div>
+                    <div class="formflex">
+                        <label for="email" class="label">E-MAIL</label>
+                        <div class="sep"></div>
+                        <input type="email" id="email" name="email" placeholder="Enter Email" required />
+                    </div>
+                    <label for="questions" class="label">QUESTIONS?</label>
                     <textarea id="question"></textarea>
                     <input type="submit" id="submit">
                 </form>
             </div>           
         </main>
+        <footer>
+            <p>This page created by Brandon Walker for educational purposes only.</p>
+            <p>December, 2022</p>    
+        </footer>
     </body>
 </html>
