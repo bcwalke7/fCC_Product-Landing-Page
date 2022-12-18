@@ -53,12 +53,34 @@ body {
     font-family: audrielle-no1,sans-serif;
     font-weight: 400;
     font-style: normal;
-    width: 55vw;
+    width: 60vw;
+    position: absolute;
+    right: 0;
+    top: -1vw;
+}
+
+@media screen and (max-width: 450px) {
+
+    li {
+        font-size: 10vw;
+        text-shadow: 1vw 1vw 2vw #4B4952;
+    }
+
+    .shadow {
+        width: 38.29vw;
+    
+    }
+    
+    #header-img {
+        width: 36vw;
+    
+    }
+
 }
 
 ul {
     list-style: none;
-    font-size: 6vw;
+    font-size: 8vw;
     margin-top: 2vw;
     padding-left: 0;
     display: flex;
@@ -67,6 +89,7 @@ ul {
 
 li {
     rotate: -15deg;
+    text-shadow: 1vw 1vw 2vw #4B4952;
 }
 
 a {
