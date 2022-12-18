@@ -184,6 +184,27 @@ h2 {
     }
 }
 
+.videodiv {
+    width: 55vw;
+    height: 50vw;
+    margin: 0 auto;
+    margin-top: -4vw;
+}
+
 .sep {
     width: 1vw;
+}
+
+#video {
+    width: 55vw;
+    height: 35vw;
+}
+
+.review {
+    font-family: citrus-gothic, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 3vw;
+    text-shadow: 0vw 0vw 1vw #004F4D;
+    font-size: 6vw;
 }
